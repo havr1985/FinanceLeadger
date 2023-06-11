@@ -22,7 +22,7 @@
   </head>
   <body>
     <header class="header">
-        <div class="container header-box">
+        <div class="container header-box"> 
         <a href="./index.html" class="logo-link link">
             <svg class="logo-icon" width="39.31" height="35">
                 <use href="./image/icons.svg#icon-logo"></use>
@@ -50,8 +50,16 @@
                  Read More</button>
         </section>
 
-        <section class="sectio-about container" id="about">
-          <img src="./image/about.jpg" alt="funny people" width="670" height="460">
+        <section class="section-about container" id="about">
+          <picture>
+            <source srcset="./image/about-desctop.jpg 1x, ./image/about-desctop@2x.jpg 2x"
+            media="(min-width: 1360px)">
+            <source srcset="./image/about-tablet.jpg 1x, ./image/about-tablet@2x.jpg 2x"
+            media="(min-width: 768px)">
+            <source srcset="./image/about-mobile.jpg 1x, ./image/about-mobile@2x.jpg 2x"
+            media="(max-width: 767px)">
+          <img src="./image/about.jpg" alt="funny people">
+          </picture>
           <div class="section-about-content">
           <p class="about-top-text section-top-text">What you are looking for</p>
           <h2 class="about-title section-title">We provide bespoke solutions</h2>
@@ -60,7 +68,7 @@
           </div>
         </section>
 
-        <section class="section-cases container" id="cases">
+        <!-- <section class="section-cases container" id="cases">
           <div class="section-cases-content">
           <p class="cases-top-text section-top-text">This is what we do</p>
           <h2 class="cases-title section-title">Business Cases</h2>
@@ -76,9 +84,9 @@
               <li class="cases-item"><img src="./image/cases6.jpg" alt="" width="421" height="282"></li>
             </ul>
           </div>
-        </section>
+        </section> -->
 
-        <section class="section-blog container" id="blog">
+        <!-- <section class="section-blog container" id="blog">
           <div class="section-blog-content">
             <p class="blog-text-top section-top-text">April 16 2020</p>
             <h2 class="blog-title section-title">Blog Post One</h2>
@@ -86,9 +94,9 @@
             <button type="button" class="blog-btn">Read Our Blog</button>
           </div>
           <img src="./image/blog.jpg" alt="coffee" width="670" height="460">
-        </section>
+        </section> -->
 
-        <section class="section-team container">
+        <!-- <section class="section-team container">
           <div class="section-team-content">
             <p class="team-text-top section-top-text">Who we are</p>
             <h2 class="team-title section-title">Our Professional Team</h2>
@@ -209,9 +217,9 @@
               </li>
             </ul>
           </div>
-        </section>
+        </section> -->
 
-        <section class="section-calback container" id="contact">
+        <!-- <section class="section-calback container" id="contact">
           <img src="./image/callback.jpg" alt="" width="670" height="454">
           <div class="section-callback-content">
             <h2 class="callback-title section-title">Request Callback</h2>
@@ -225,10 +233,10 @@
               <button type="submit" class="callback-form-button">Send</button>
             </form>
           </div>
-        </section>
+        </section> -->
     </main>
 
-    <footer class="footer container">
+    <!-- <footer class="footer container">
       <ul class="social-list list">
         <li class="social-item">
           <a href="" class="social-link link">
@@ -260,6 +268,6 @@
         </li>
       </ul>
       <p class="footer-text">Copyright © 2021 - FinanceLedger</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
