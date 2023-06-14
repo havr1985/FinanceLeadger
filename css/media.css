@@ -1,0 +1,344 @@
+@media screen and (min-width:320px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width:320px),
+screen and (min-resolution:192dpi) and (max-width:320px),
+screen and (min-resolution:2dppx) and (max-width:320px) {
+    .hero {
+        min-height: 533px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-mobile@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:426px) {
+    .hero {
+        min-height: 1024px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-tablet.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:426px),
+screen and (min-resolution:192dpi) and (min-width:426px),
+screen and (min-resolution:2dppx) and (min-width:426px) {
+    .hero {
+        min-height: 1024px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-tablet@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .hero {
+        min-height: 768px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-desctop.jpg);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width:769px),
+screen and (min-resolution:192dpi) and (min-width:769px),
+screen and (min-resolution:2dppx) and (min-width:769px) {
+    .hero {
+        min-height: 768px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-desctop@2x.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* SCREEN 768px */
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+
+    .header-box {
+        display: flex;
+        padding-left: 32px;
+        padding-right: 32px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo-link {
+        gap: 10px;
+        font-size: 35px;
+        line-height: 1.21;
+    }
+    
+    .nav-list {
+        gap: 20px;
+    }
+    
+    .nav-link {
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+
+    .hero-title {
+        padding-top: 407px;
+        margin-bottom: 24px;
+        max-width: 100%;
+        font-size: 55px;
+        line-height: 1.2;
+    }
+    
+    .hero-text {
+        margin-bottom: 32px;
+    }
+    
+    .hero-btn {
+        min-width: 165px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+
+    .section-about {
+        display: flex;
+    }
+    
+    .section-about-content {
+        padding: 40px 53px 40px 32px;
+    }
+    
+    .section-top-text {
+        font-size: 20px;
+        line-height: 1.65;
+    }
+    
+    .about-title {
+        max-width: 204px;
+    }
+    
+    .section-bottom-text {
+        font-size: 18px;
+        line-height: 1.56;
+    }
+    
+    .about-btn {
+        min-width: 167px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+    .section-cases {
+        padding: 40px 32px;
+    }
+
+    .section-cases-content {
+        margin-bottom: 24px;
+    }
+
+    .cases-top-text {
+        margin-bottom: 24px;
+    }
+
+    .cases-title {
+        max-width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .cases-list {
+        gap: 18px;
+    }
+
+    .cases-item {
+         width: calc((100% - 36px) / 3);
+    }
+
+    .section-blog {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section-blog-content {
+        padding: 40px 53px 40px 32px;
+    }
+
+    .blog-btn {
+        min-width: 196px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+    .section-team {
+        padding: 40px 32px;
+    }
+
+    .team-text-top {
+        margin-bottom: 24px;
+    }
+
+    .team-title {
+        margin-bottom: 24px;
+    }
+
+    .team-text-bottom {
+        margin-bottom: 24px;
+    }
+
+    .team-card-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 18px;
+    }
+
+    .team-card-item {
+        width: calc((100% - 36px) / 3);
+    }
+
+    .team-card-title {
+        margin-top: 14px;
+    }
+
+    .action-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .section-calback {
+        display: flex;
+    }
+
+    .section-callback-content {
+        padding: 40px 32px;
+    }
+
+    .calback-form-input {
+        padding: 8px 0 8px 8px;
+    }
+
+    .calback-form-input::placeholder {
+        font-size: 18px;
+        line-height: 1.28;
+    }
+
+    .callback-form-button {
+        font-size: 16px;
+        line-height: 1.56;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+    .social-list {
+        margin-bottom: 6px;
+    }
+
+    .footer-text {
+        font-size: 18px;
+        line-height: 1.56;
+        text-align: center;
+    }
+}
+
+/* SCREEN 1360px */
+
+@media screen and (min-width:1360px) {
+    .container {
+        width: 1360px;
+    }
+
+    .header-box {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+    
+    .nav-list {
+        gap: 40px;
+    }
+
+    .hero-title {
+        padding-top: 279px;
+    
+    }
+
+    .section-about-content {
+        padding: 80px 64px 80px 20px;
+    }
+
+    .about-title {
+        max-width: 100%;
+    }
+
+    .about-bottom-text {
+        width: 606px;
+    }
+
+    .section-cases {
+        padding: 80px 28px;
+    }
+
+    .cases-list {
+        gap: 24px 21px;
+    }
+    
+    .cases-item {
+        width: calc((100% - 42px) / 3);
+    }
+
+    .section-blog-content {
+        padding: 80px 56px 80px 28px;
+    }
+
+    .section-team {
+        padding: 80px 30px;
+    }
+
+    .team-card-list {
+        gap: 20px;
+    }
+
+    .team-card-item {
+        width: calc((100% - 40px) / 3);
+    }
+
+    .team-card-title {
+        margin-top: 20px;
+    }
+    
+    .action-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .section-callback-content {
+        padding: 80px 28px;
+    }
+
+    .calback-form-input {
+        padding: 10px 0 1px 8px;
+    }
+
+    .callback-form-button {
+        margin-top: 28px;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+}

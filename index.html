@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FinanceLeadger</title>
+    <title>Finance Leadger</title>
+    <link rel="icon" href="./image/icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="header">
@@ -68,45 +70,107 @@
           </div>
         </section>
 
-        <!-- <section class="section-cases container" id="cases">
+        <section class="section-cases container" id="cases">
           <div class="section-cases-content">
           <p class="cases-top-text section-top-text">This is what we do</p>
           <h2 class="cases-title section-title">Business Cases</h2>
           <p class="cases-bottom-title section-bottom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
           </div>
           <div class="cases-card">
-            <ul class="cases-list">
-              <li class="cases-item"><img src="./image/cases1.jpg" alt="" width="421" height="282"></li>
-              <li class="cases-item"><img src="./image/cases2.jpg" alt="" width="421" height="282"></li>
-              <li class="cases-item"><img src="./image/cases3.jpg" alt="" width="421" height="282"></li>
-              <li class="cases-item"><img src="./image/cases4.jpg" alt="" width="421" height="282"></li>
-              <li class="cases-item"><img src="./image/cases5.jpg" alt="" width="421" height="282"></li>
-              <li class="cases-item"><img src="./image/cases6.jpg" alt="" width="421" height="282"></li>
+            <ul class="cases-list list">
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop1.jpg 1x, ./image/cases-desctop1@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet1.jpg 1x, ./image/cases-tablet1@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile1.jpg 1x, ./image/cases-mobile1@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases1.jpg" alt=""></li></picture>
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop2.jpg 1x, ./image/cases-desctop2@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet2.jpg 1x, ./image/cases-tablet2@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile2.jpg 1x, ./image/cases-mobile2@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases2.jpg" alt=""></li></picture>
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop3.jpg 1x, ./image/cases-desctop3@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet3.jpg 1x, ./image/cases-tablet3@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile3.jpg 1x, ./image/cases-mobile3@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases3.jpg" alt=""></li></picture>
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop4.jpg 1x, ./image/cases-desctop4@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet4.jpg 1x, ./image/cases-tablet4@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile4.jpg 1x, ./image/cases-mobile4@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases4.jpg" alt=""></li></picture>
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop5.jpg 1x, ./image/cases-desctop5@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet5.jpg 1x, ./image/cases-tablet5@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile5.jpg 1x, ./image/cases-mobile5@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases5.jpg" alt=""></li></picture>
+              <li class="cases-item">
+                <picture>
+                  <source srcset="./image/cases-desctop6.jpg 1x, ./image/cases-desctop6@2x.jpg 2x"
+                  media="(min-width:1360px)">
+                  <source srcset="./image/cases-tablet6.jpg 1x, ./image/cases-tablet6@2x.jpg 2x"
+                  media="(min-width:768px)">
+                  <source srcset="./image/cases-mobile6.jpg 1x, ./image/cases-mobile6@2x.jpg 2x"
+                  media="(max-width:767px)">
+                <img src="./image/cases6.jpg" alt=""></li></picture>
             </ul>
           </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="section-blog container" id="blog">
+        <section class="section-blog container" id="blog">
           <div class="section-blog-content">
             <p class="blog-text-top section-top-text">April 16 2020</p>
             <h2 class="blog-title section-title">Blog Post One</h2>
             <p class="blog-text-bottom section-bottom-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
             <button type="button" class="blog-btn">Read Our Blog</button>
           </div>
-          <img src="./image/blog.jpg" alt="coffee" width="670" height="460">
-        </section> -->
+          <picture>
+            <source srcset="./image/blog-desctop.jpg 1x, ./image/blog-desctop@2x.jpg 2x"
+            media="(min-width:1360px)">
+            <source srcset="./image/blog-tablet.jpg 1x, ./image/blog-tablet@2x.jpg 2x"
+            media="(min-width:768px)">
+            <source srcset="./image/blog-mobile.jpg 1x, ./image/blog-mobile@2x.jpg 2x"
+            media="(max-width:767px)">
+          <img src="./image/blog.jpg" alt="coffee"></picture>
+        </section>
 
-        <!-- <section class="section-team container">
+        <section class="section-team container">
           <div class="section-team-content">
             <p class="team-text-top section-top-text">Who we are</p>
             <h2 class="team-title section-title">Our Professional Team</h2>
-            <p class="team-taxt-bottom section-bottom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+            <p class="team-text-bottom section-bottom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
           </div>
           <div class="section-team-card">
             <ul class="team-card-list list">
               <li class="team-card-item">
                 <div class="action">
-                <img src="./image/team1.jpg" alt="" width="421" height="286">
+                  <picture>
+                    <source srcset="./image/team-desctop1.jpg 1x, ./image/team-desctop1@2x.jpg 2x"
+                    media="(min-width:1360px)">
+                    <source srcset="./image/team-tablet1.jpg 1x, ./image/team-tablet1@2x.jpg 2x"
+                    media="(min-width:768px)">
+                    <source srcset="./image/team-mobile1.jpg 1x, ./image/team-mobile1@2x.jpg 2x"
+                    media="(max-width:767px)">
+                <img src="./image/team1.jpg" alt=""></picture>
                 <ul class="action-list list">
                   <li class="action-item">
                     <a href="" class="action-link link">
@@ -143,7 +207,14 @@
               </li>
               <li class="team-card-item">
                 <div class="action">
-                <img src="./image/team2.jpg" alt="" width="421" height="286">
+                  <picture>
+                    <source srcset="./image/team-desctop2.jpg 1x, ./image/team-desctop2@2x.jpg 2x"
+                    media="(min-width:1360px)">
+                    <source srcset="./image/team-tablet2.jpg 1x, ./image/team-tablet2@2x.jpg 2x"
+                    media="(min-width:768px)">
+                    <source srcset="./image/team-mobile2.jpg 1x, ./image/team-mobile2@2x.jpg 2x"
+                    media="(max-width:767px)">
+                <img src="./image/team2.jpg" alt=""></picture>
                 <ul class="action-list list">
                   <li class="action-item">
                     <a href="" class="action-link link">
@@ -175,12 +246,19 @@
                   </li>
                 </ul>
                 </div>
-                <h3 class="team-card-title">Lora Palmer</h3>
+                <h3 class="team-card-title">Jane Doe</h3>
                 <p class="team-card-text">Vice President</p>
               </li>
               <li class="team-card-item">
                 <div class="action">
-                <img src="./image/team3.jpg" alt="" width="421" height="286">
+                  <picture>
+                    <source srcset="./image/team-desctop3.jpg 1x, ./image/team-desctop3@2x.jpg 2x"
+                    media="(min-width:1360px)">
+                    <source srcset="./image/team-tablet3.jpg 1x, ./image/team-tablet3@2x.jpg 2x"
+                    media="(min-width:768px)">
+                    <source srcset="./image/team-mobile3.jpg 1x, ./image/team-mobile3@2x.jpg 2x"
+                    media="(max-width:767px)">
+                <img src="./image/team3.jpg" alt=""></picture>
                 <ul class="action-list list">
                   <li class="action-item">
                     <a href="" class="action-link link">
@@ -217,10 +295,17 @@
               </li>
             </ul>
           </div>
-        </section> -->
+        </section>
 
-        <!-- <section class="section-calback container" id="contact">
-          <img src="./image/callback.jpg" alt="" width="670" height="454">
+        <section class="section-calback container" id="contact">
+          <picture>
+            <source srcset="./image/callback-desctop.jpg 1x, ./image/callback-desctop@2x.jpg 2x"
+            media="(min-width:1360px)">
+            <source srcset="./image/callback-tablet.jpg 1x, ./image/callback-tablet@2x.jpg 2x"
+            media="(min-width:768px)">
+            <source srcset="./image/callback-mobile.jpg 1x, ./image/callback-mobile@2x.jpg 2x"
+            media="(max-width:767px)">
+          <img src="./image/callback-desctop.jpg" alt=""></picture>
           <div class="section-callback-content">
             <h2 class="callback-title section-title">Request Callback</h2>
             <form class="callback-form">
@@ -233,10 +318,10 @@
               <button type="submit" class="callback-form-button">Send</button>
             </form>
           </div>
-        </section> -->
+        </section>
     </main>
 
-    <!-- <footer class="footer container">
+    <footer class="footer container">
       <ul class="social-list list">
         <li class="social-item">
           <a href="" class="social-link link">
@@ -268,6 +353,6 @@
         </li>
       </ul>
       <p class="footer-text">Copyright © 2021 - FinanceLedger</p>
-    </footer> -->
+    </footer>
   </body>
 </html>
