@@ -384,6 +384,16 @@ button{
 
 }
 
+.action-icon {
+    fill: var(--primary-background-color);
+    transition: fill var(--transition);
+}
+
+.action-link:hover .action-icon,
+.action-link:focus .action-icon {
+    fill: var(--secondary-background-color);
+}
+
 /* ========SECTION-CALLBACK========= */
 
 .section-callback-content {
@@ -468,4 +478,14 @@ button{
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+}
+
+.social-icon{
+    fill: var(--primary-background-color);
+    transition: fill var(--transition);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon{
+    fill: var(--secondary-background-color);
 }
