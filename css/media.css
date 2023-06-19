@@ -29,6 +29,9 @@ screen and (min-resolution:2dppx) and (max-width:320px) {
     .hero {
         min-height: 1024px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-tablet.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -48,6 +51,9 @@ screen and (min-resolution:2dppx) and (min-width:426px) {
     .hero {
         min-height: 768px;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg-desctop.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -114,7 +120,7 @@ screen and (min-resolution:2dppx) and (min-width:769px) {
     }
 
 
-    .section-about {
+    .about-wrap {
         display: flex;
     }
     
@@ -168,9 +174,10 @@ screen and (min-resolution:2dppx) and (min-width:769px) {
          width: calc((100% - 36px) / 3);
     }
 
-    .section-blog {
+    .blog-wrap {
         display: flex;
         flex-direction: row;
+
     }
 
     .section-blog-content {
@@ -219,7 +226,7 @@ screen and (min-resolution:2dppx) and (min-width:769px) {
         height: 24px;
     }
 
-    .section-calback {
+    .calback-wrap {
         display: flex;
     }
 

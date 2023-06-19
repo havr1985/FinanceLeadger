@@ -64,6 +64,7 @@ button{
 /* ========HEADER========= */
 
 .header {
+    width: 100%;
     position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -71,12 +72,6 @@ button{
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.8),
             rgba(0, 0, 0, 0.8));
-}
-
-.header-box {
-    
-    
-    
 }
 
 .logo-link {
@@ -268,6 +263,10 @@ button{
 /* ========SECTION-BLOG========= */
 
 .section-blog {
+    background-color: var(--accent-color);
+}
+
+.section-blog {
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--accent-color);
@@ -400,11 +399,13 @@ button{
 
 /* ========SECTION-CALLBACK========= */
 
+.section-calback {
+    background-color: #F4F4F4;
+}
+
 .section-callback-content {
     padding: 40px 20px;
     width: 100%;
-    background-color: #F4F4F4;
-
 }
 
 .callback-title {
